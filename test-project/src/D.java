@@ -26,4 +26,13 @@ public class D {
     public String getS() {
         return s;
     }
+
+
+    public void printText(){
+        System.out.println("Hallo!");
+        System.out.println("Das ist Beispieltext!");
+        System.out.println("Blub!");
+        System.out.println("Didub!");
+        System.out.println("Didab!");
+    }
 }

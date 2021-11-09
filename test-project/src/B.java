@@ -15,4 +15,12 @@ public class B {
             return this.myInt;
         }
 
+        public void printText(){
+            System.out.println("Hallo!");
+            System.out.println("Das ist Beispieltext!");
+            System.out.println("Blub!");
+            System.out.println("Didub!");
+            System.out.println("Didab!");
+        }
+
 }
