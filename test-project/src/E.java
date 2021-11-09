@@ -1,29 +1,12 @@
 public class E {
-    private int i;
-    private float f;
-    private char c;
-    private String s;
+    private int age;
 
-    public E(int i, float f, char c, String s){
-        this.i = i;
-        this.f = f;
-        this.c = c;
-        this.s = s;
+    public E(int i){
+        this.age = i;
     }
 
-    public char getC() {
-        return c;
+    public int getAge() {
+        return age;
     }
 
-    public float getF() {
-        return f;
-    }
-
-    public int getI() {
-        return i;
-    }
-
-    public String getS() {
-        return s;
-    }
 }
